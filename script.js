@@ -9,7 +9,7 @@ greetBtn.addEventListener('click', () => {
   if (name) {
     greeting.textContent = `Hello, ${name}`;
   } else {
-    greeting.textContent = "Hello!";
+    greeting.textContent = "Hello";
   }
 });
 
